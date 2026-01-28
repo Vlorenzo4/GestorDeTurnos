@@ -1,0 +1,11 @@
+.appWrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #ede7f6, #d8c9f0);
+  display: flex;
+  flex-direction: column;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.main {
+  flex: 1;
+}

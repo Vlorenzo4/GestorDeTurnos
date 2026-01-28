@@ -1,0 +1,39 @@
+.container {
+  min-height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  text-align: center;
+}
+
+.title {
+  font-size: 96px;
+  font-weight: 700;
+  color: #8e44ad;
+  margin-bottom: 10px;
+}
+
+.message {
+  font-size: 18px;
+  color: #4a235a;
+  margin-bottom: 30px;
+}
+
+.homeButton {
+  text-decoration: none;
+  padding: 12px 28px;
+  border-radius: 999px;
+
+  background-color: #8e44ad;
+  color: #ffffff;
+  font-weight: 600;
+
+  transition: all 0.3s ease;
+}
+
+.homeButton:hover {
+  background-color: #732d91;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,28 @@
+.turnosWrapper {
+  min-height: calc(100vh - 120px);
+  padding: 40px;
+}
+
+.turnosTitle {
+  text-align: center;
+  color: #6b2c91;
+  margin-bottom: 30px;
+}
+
+.turnosGrid {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 24px;
+  justify-items: center;
+}
+
+.infoText {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  color: #6b2c91;
+  margin-top: 40px;
+}

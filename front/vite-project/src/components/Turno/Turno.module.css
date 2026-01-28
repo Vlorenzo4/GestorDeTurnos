@@ -1,0 +1,104 @@
+.card {
+  width: 100%;
+  max-width: 320px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffffff, #f3e7f7);
+  border-radius: 16px;
+  padding: 20px 22px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.12);
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.18);
+}
+
+.title {
+  font-size: 18px;
+  color: #5e2b7a;
+  margin-bottom: 12px;
+}
+
+.info p {
+  margin: 4px 0;
+  font-size: 14px;
+  color: #4a235a;
+  align-items: center;
+}
+
+.cancelButton {
+  margin-top: 16px;
+  width: 100%;
+
+  padding: 10px 0;
+  border: none;
+  border-radius: 999px;
+
+  background-color: #8e44ad;
+  color: #ffffff;
+
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    background-color 0.25s ease,
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.statusActive {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 26px;
+  padding: 0 14px;
+
+  background-color: #2ecc71;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  border-radius: 999px;
+}
+
+.statusInactive {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  height: 26px;
+  padding: 0 14px;
+
+  background-color: #e74c3c;
+  color: #ffffff;
+
+  font-size: 13px;
+  font-weight: 600;
+
+  border-radius: 999px;
+}
+
+.cancelButton:hover {
+  background-color: #732d91;
+  transform: translateY(-1px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.15);
+}
+
+/* cuando el turno YA está cancelado */
+.disabled {
+  background-color: #c39bd3;
+  cursor: not-allowed;
+  opacity: 0.7;
+}
+
+.disabled:hover {
+  transform: none;
+  box-shadow: none;
+}
