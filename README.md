@@ -63,9 +63,10 @@ cd front/vite-project
 npm install
 npm run dev
 
-📌 Usage
-Create an account
-Log in
-Select a date and time for your appointment
-View your booked appointments
-Cancel appointments if needed
+## 📌 Usage
+
+- Create an account  
+- Log in  
+- Select a date and time for your appointment  
+- View your booked appointments  
+- Cancel appointments if needed  
