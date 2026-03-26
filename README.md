@@ -45,12 +45,12 @@ npm install
 
 Create a .env file inside the back folder based on .env.example.
 
-PORT=
-DB_host=
-DB_port=
-DB_username=
-DB_password=
-DB_database = 
+PORT=3000
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=your_user
+DB_PASSWORD=your_password
+DB_DATABASE=your_database
 DB_logging=
 DB_synchronize= 
 DB_dropSchema=
